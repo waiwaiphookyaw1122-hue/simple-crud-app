@@ -15,7 +15,7 @@ app.get("/", (req, res) => {
 });
 
 
-const MONGO_URI = "mongodb+srv://waiwaiphookyaw1122_db_user:UtD809Kt3P0Z58ox@cluster0.titaaev.mongodb.net/?retryWrites=true&w=majority";
+const MONGO_URI = "mongodb+srv://waiwaiphookyaw1122_db_user:UtD809Kt3P0Z58ox@cluster0.titaaev.mongodb.net/node-api-db?retryWrites=true&w=majority";
 
 mongoose
   .connect(MONGO_URI)
